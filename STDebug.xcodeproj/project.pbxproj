@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E70CF2A1F28844400EA9D9F /* STDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF281F28844400EA9D9F /* STDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E70CF611F2884CA00EA9D9F /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF381F2884CA00EA9D9F /* MASCompositeConstraint.h */; };
+		8E70CF621F2884CA00EA9D9F /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF391F2884CA00EA9D9F /* MASConstraint.h */; };
+		8E70CF631F2884CA00EA9D9F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF3A1F2884CA00EA9D9F /* MASConstraintMaker.h */; };
+		8E70CF641F2884CA00EA9D9F /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF3B1F2884CA00EA9D9F /* MASLayoutConstraint.h */; };
+		8E70CF651F2884CA00EA9D9F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF3C1F2884CA00EA9D9F /* Masonry.h */; };
+		8E70CF661F2884CA00EA9D9F /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF3D1F2884CA00EA9D9F /* MASUtilities.h */; };
+		8E70CF671F2884CA00EA9D9F /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF3E1F2884CA00EA9D9F /* MASViewAttribute.h */; };
+		8E70CF681F2884CA00EA9D9F /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF3F1F2884CA00EA9D9F /* MASViewConstraint.h */; };
+		8E70CF691F2884CA00EA9D9F /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF401F2884CA00EA9D9F /* NSArray+MASAdditions.h */; };
+		8E70CF6A1F2884CA00EA9D9F /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF411F2884CA00EA9D9F /* NSArray+MASShorthandAdditions.h */; };
+		8E70CF6B1F2884CA00EA9D9F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF421F2884CA00EA9D9F /* NSLayoutConstraint+MASDebugAdditions.h */; };
+		8E70CF6C1F2884CA00EA9D9F /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF431F2884CA00EA9D9F /* View+MASAdditions.h */; };
+		8E70CF6D1F2884CA00EA9D9F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF441F2884CA00EA9D9F /* View+MASShorthandAdditions.h */; };
+		8E70CF6E1F2884CA00EA9D9F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF451F2884CA00EA9D9F /* ViewController+MASAdditions.h */; };
+		8E70CF8A1F28878C00EA9D9F /* STDebugMutiTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E70CF881F28878C00EA9D9F /* STDebugMutiTabView.m */; };
+		8E70CF8B1F28878C00EA9D9F /* STDebugMutiTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF891F28878C00EA9D9F /* STDebugMutiTabView.h */; };
+		8E70CF8D1F2887D800EA9D9F /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF8C1F2887D800EA9D9F /* common.h */; };
+		8E70CF911F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF8F1F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.h */; };
+		8E70CF921F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E70CF901F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.m */; };
+		8E70CF971F288EBD00EA9D9F /* STDebugController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF951F288EBD00EA9D9F /* STDebugController.h */; };
+		8E70CF981F288EBD00EA9D9F /* STDebugController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E70CF961F288EBD00EA9D9F /* STDebugController.m */; };
+		8E70CF9C1F288F3A00EA9D9F /* STLogTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CF9A1F288F3A00EA9D9F /* STLogTool.h */; };
+		8E70CF9D1F288F3A00EA9D9F /* STLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E70CF9B1F288F3A00EA9D9F /* STLogTool.m */; };
+		8E70CFA51F2895C000EA9D9F /* STDebugView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CFA31F2895C000EA9D9F /* STDebugView.h */; };
+		8E70CFA61F2895C000EA9D9F /* STDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E70CFA41F2895C000EA9D9F /* STDebugView.m */; };
+		8E70CFAB1F289F8A00EA9D9F /* STDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CFA91F289F8A00EA9D9F /* STDebugger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E70CFAC1F289F8A00EA9D9F /* STDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E70CFAA1F289F8A00EA9D9F /* STDebugger.m */; };
+		8E70CFAF1F28A72000EA9D9F /* STLogView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CFAD1F28A72000EA9D9F /* STLogView.h */; };
+		8E70CFB01F28A72000EA9D9F /* STLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E70CFAE1F28A72000EA9D9F /* STLogView.m */; };
+		8E70CFB31F28A8D000EA9D9F /* STLogCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CFB11F28A8D000EA9D9F /* STLogCell.h */; };
+		8E70CFB41F28A8D000EA9D9F /* STLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E70CFB21F28A8D000EA9D9F /* STLogCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E70CF251F28844400EA9D9F /* STDebug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STDebug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E70CF281F28844400EA9D9F /* STDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STDebug.h; sourceTree = "<group>"; };
+		8E70CF291F28844400EA9D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E70CF381F2884CA00EA9D9F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		8E70CF391F2884CA00EA9D9F /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		8E70CF3A1F2884CA00EA9D9F /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		8E70CF3B1F2884CA00EA9D9F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		8E70CF3C1F2884CA00EA9D9F /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		8E70CF3D1F2884CA00EA9D9F /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		8E70CF3E1F2884CA00EA9D9F /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		8E70CF3F1F2884CA00EA9D9F /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		8E70CF401F2884CA00EA9D9F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8E70CF411F2884CA00EA9D9F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8E70CF421F2884CA00EA9D9F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8E70CF431F2884CA00EA9D9F /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		8E70CF441F2884CA00EA9D9F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8E70CF451F2884CA00EA9D9F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		8E70CF881F28878C00EA9D9F /* STDebugMutiTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDebugMutiTabView.m; sourceTree = "<group>"; };
+		8E70CF891F28878C00EA9D9F /* STDebugMutiTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDebugMutiTabView.h; sourceTree = "<group>"; };
+		8E70CF8C1F2887D800EA9D9F /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		8E70CF8F1F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+STDebugMutiTabView.h"; sourceTree = "<group>"; };
+		8E70CF901F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+STDebugMutiTabView.m"; sourceTree = "<group>"; };
+		8E70CF951F288EBD00EA9D9F /* STDebugController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDebugController.h; sourceTree = "<group>"; };
+		8E70CF961F288EBD00EA9D9F /* STDebugController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDebugController.m; sourceTree = "<group>"; };
+		8E70CF9A1F288F3A00EA9D9F /* STLogTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLogTool.h; sourceTree = "<group>"; };
+		8E70CF9B1F288F3A00EA9D9F /* STLogTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLogTool.m; sourceTree = "<group>"; };
+		8E70CFA31F2895C000EA9D9F /* STDebugView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDebugView.h; sourceTree = "<group>"; };
+		8E70CFA41F2895C000EA9D9F /* STDebugView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDebugView.m; sourceTree = "<group>"; };
+		8E70CFA91F289F8A00EA9D9F /* STDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDebugger.h; sourceTree = "<group>"; };
+		8E70CFAA1F289F8A00EA9D9F /* STDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDebugger.m; sourceTree = "<group>"; };
+		8E70CFAD1F28A72000EA9D9F /* STLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLogView.h; sourceTree = "<group>"; };
+		8E70CFAE1F28A72000EA9D9F /* STLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLogView.m; sourceTree = "<group>"; };
+		8E70CFB11F28A8D000EA9D9F /* STLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLogCell.h; sourceTree = "<group>"; };
+		8E70CFB21F28A8D000EA9D9F /* STLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLogCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E70CF211F28844400EA9D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E70CF1B1F28844400EA9D9F = {
+			isa = PBXGroup;
+			children = (
+				8E70CF361F2884CA00EA9D9F /* include */,
+				8E70CF271F28844400EA9D9F /* STDebug */,
+				8E70CF261F28844400EA9D9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E70CF261F28844400EA9D9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E70CF251F28844400EA9D9F /* STDebug.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E70CF271F28844400EA9D9F /* STDebug */ = {
+			isa = PBXGroup;
+			children = (
+				8E70CF991F288F2500EA9D9F /* Untils */,
+				8E70CF8E1F2888CD00EA9D9F /* Category */,
+				8E70CF941F288E8400EA9D9F /* Controller */,
+				8E70CF831F28876600EA9D9F /* View */,
+				8E70CF281F28844400EA9D9F /* STDebug.h */,
+				8E70CF8C1F2887D800EA9D9F /* common.h */,
+				8E70CF291F28844400EA9D9F /* Info.plist */,
+			);
+			path = STDebug;
+			sourceTree = "<group>";
+		};
+		8E70CF361F2884CA00EA9D9F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8E70CF371F2884CA00EA9D9F /* Masonry */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8E70CF371F2884CA00EA9D9F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				8E70CF381F2884CA00EA9D9F /* MASCompositeConstraint.h */,
+				8E70CF391F2884CA00EA9D9F /* MASConstraint.h */,
+				8E70CF3A1F2884CA00EA9D9F /* MASConstraintMaker.h */,
+				8E70CF3B1F2884CA00EA9D9F /* MASLayoutConstraint.h */,
+				8E70CF3C1F2884CA00EA9D9F /* Masonry.h */,
+				8E70CF3D1F2884CA00EA9D9F /* MASUtilities.h */,
+				8E70CF3E1F2884CA00EA9D9F /* MASViewAttribute.h */,
+				8E70CF3F1F2884CA00EA9D9F /* MASViewConstraint.h */,
+				8E70CF401F2884CA00EA9D9F /* NSArray+MASAdditions.h */,
+				8E70CF411F2884CA00EA9D9F /* NSArray+MASShorthandAdditions.h */,
+				8E70CF421F2884CA00EA9D9F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				8E70CF431F2884CA00EA9D9F /* View+MASAdditions.h */,
+				8E70CF441F2884CA00EA9D9F /* View+MASShorthandAdditions.h */,
+				8E70CF451F2884CA00EA9D9F /* ViewController+MASAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		8E70CF831F28876600EA9D9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E70CF881F28878C00EA9D9F /* STDebugMutiTabView.m */,
+				8E70CF891F28878C00EA9D9F /* STDebugMutiTabView.h */,
+				8E70CFA31F2895C000EA9D9F /* STDebugView.h */,
+				8E70CFA41F2895C000EA9D9F /* STDebugView.m */,
+				8E70CFAD1F28A72000EA9D9F /* STLogView.h */,
+				8E70CFAE1F28A72000EA9D9F /* STLogView.m */,
+				8E70CFB11F28A8D000EA9D9F /* STLogCell.h */,
+				8E70CFB21F28A8D000EA9D9F /* STLogCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E70CF8E1F2888CD00EA9D9F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8E70CF8F1F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.h */,
+				8E70CF901F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8E70CF941F288E8400EA9D9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E70CF951F288EBD00EA9D9F /* STDebugController.h */,
+				8E70CF961F288EBD00EA9D9F /* STDebugController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E70CF991F288F2500EA9D9F /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				8E70CF9A1F288F3A00EA9D9F /* STLogTool.h */,
+				8E70CF9B1F288F3A00EA9D9F /* STLogTool.m */,
+				8E70CFA91F289F8A00EA9D9F /* STDebugger.h */,
+				8E70CFAA1F289F8A00EA9D9F /* STDebugger.m */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E70CF221F28844400EA9D9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E70CFAB1F289F8A00EA9D9F /* STDebugger.h in Headers */,
+				8E70CF971F288EBD00EA9D9F /* STDebugController.h in Headers */,
+				8E70CF8B1F28878C00EA9D9F /* STDebugMutiTabView.h in Headers */,
+				8E70CFAF1F28A72000EA9D9F /* STLogView.h in Headers */,
+				8E70CF6C1F2884CA00EA9D9F /* View+MASAdditions.h in Headers */,
+				8E70CF8D1F2887D800EA9D9F /* common.h in Headers */,
+				8E70CF6D1F2884CA00EA9D9F /* View+MASShorthandAdditions.h in Headers */,
+				8E70CF671F2884CA00EA9D9F /* MASViewAttribute.h in Headers */,
+				8E70CF631F2884CA00EA9D9F /* MASConstraintMaker.h in Headers */,
+				8E70CF2A1F28844400EA9D9F /* STDebug.h in Headers */,
+				8E70CF681F2884CA00EA9D9F /* MASViewConstraint.h in Headers */,
+				8E70CF6A1F2884CA00EA9D9F /* NSArray+MASShorthandAdditions.h in Headers */,
+				8E70CF641F2884CA00EA9D9F /* MASLayoutConstraint.h in Headers */,
+				8E70CF611F2884CA00EA9D9F /* MASCompositeConstraint.h in Headers */,
+				8E70CFB31F28A8D000EA9D9F /* STLogCell.h in Headers */,
+				8E70CF661F2884CA00EA9D9F /* MASUtilities.h in Headers */,
+				8E70CFA51F2895C000EA9D9F /* STDebugView.h in Headers */,
+				8E70CF691F2884CA00EA9D9F /* NSArray+MASAdditions.h in Headers */,
+				8E70CF911F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.h in Headers */,
+				8E70CF9C1F288F3A00EA9D9F /* STLogTool.h in Headers */,
+				8E70CF6E1F2884CA00EA9D9F /* ViewController+MASAdditions.h in Headers */,
+				8E70CF651F2884CA00EA9D9F /* Masonry.h in Headers */,
+				8E70CF6B1F2884CA00EA9D9F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				8E70CF621F2884CA00EA9D9F /* MASConstraint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8E70CF241F28844400EA9D9F /* STDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E70CF2D1F28844400EA9D9F /* Build configuration list for PBXNativeTarget "STDebug" */;
+			buildPhases = (
+				8E70CF201F28844400EA9D9F /* Sources */,
+				8E70CF211F28844400EA9D9F /* Frameworks */,
+				8E70CF221F28844400EA9D9F /* Headers */,
+				8E70CF231F28844400EA9D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STDebug;
+			productName = STDebug;
+			productReference = 8E70CF251F28844400EA9D9F /* STDebug.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E70CF1C1F28844400EA9D9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = stone;
+				TargetAttributes = {
+					8E70CF241F28844400EA9D9F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E70CF1F1F28844400EA9D9F /* Build configuration list for PBXProject "STDebug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E70CF1B1F28844400EA9D9F;
+			productRefGroup = 8E70CF261F28844400EA9D9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E70CF241F28844400EA9D9F /* STDebug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E70CF231F28844400EA9D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E70CF201F28844400EA9D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E70CF981F288EBD00EA9D9F /* STDebugController.m in Sources */,
+				8E70CF9D1F288F3A00EA9D9F /* STLogTool.m in Sources */,
+				8E70CFB01F28A72000EA9D9F /* STLogView.m in Sources */,
+				8E70CF921F2888CD00EA9D9F /* UIScrollView+STDebugMutiTabView.m in Sources */,
+				8E70CFAC1F289F8A00EA9D9F /* STDebugger.m in Sources */,
+				8E70CFA61F2895C000EA9D9F /* STDebugView.m in Sources */,
+				8E70CF8A1F28878C00EA9D9F /* STDebugMutiTabView.m in Sources */,
+				8E70CFB41F28A8D000EA9D9F /* STLogCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E70CF2B1F28844400EA9D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E70CF2C1F28844400EA9D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E70CF2E1F28844400EA9D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = STDebug/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stone.STDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8E70CF2F1F28844400EA9D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = STDebug/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stone.STDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E70CF1F1F28844400EA9D9F /* Build configuration list for PBXProject "STDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E70CF2B1F28844400EA9D9F /* Debug */,
+				8E70CF2C1F28844400EA9D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E70CF2D1F28844400EA9D9F /* Build configuration list for PBXNativeTarget "STDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E70CF2E1F28844400EA9D9F /* Debug */,
+				8E70CF2F1F28844400EA9D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E70CF1C1F28844400EA9D9F /* Project object */;
+}
