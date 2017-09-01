@@ -42,6 +42,7 @@ extern NSString * const kFiltersKey;
     }
     STLogTool *tool = [STLogTool shared];
     [tool redirectFileDescriptor:STDERR_FILENO];
+    [tool redirectFileDescriptor:STDOUT_FILENO];
 }
 
 + (instancetype)shared {
