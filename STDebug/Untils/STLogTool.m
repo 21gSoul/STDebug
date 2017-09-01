@@ -18,6 +18,7 @@
 @property (nonatomic, strong) NSMutableArray <NSString *> *loadLogs;
 @property (nonatomic, strong) NSMutableArray <NSString *> *formatLines;
 @property (nonatomic, assign) BOOL loading;
+@property (nonatomic, assign) int stdoutDescriptor;
 
 @end
 
@@ -43,6 +44,7 @@
         self.tempLogs = [NSMutableArray arrayWithCapacity:16];
         self.loading = NO;
         self.showOnConsole = YES;
+        self.stdoutDescriptor = dup(STDERR_FILENO);
     }
     return self;
 }
@@ -84,7 +86,7 @@
     }
     
     if (self.showOnConsole) {
-        printf("%s", [str UTF8String]);
+        write(self.stdoutDescriptor, [str UTF8String], strlen([str UTF8String])+1);
     }
     
     [self.mutableLogs appendString:str];
